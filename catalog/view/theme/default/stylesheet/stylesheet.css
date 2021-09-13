@@ -59,6 +59,9 @@ select.form-control, textarea.form-control, input[type="text"].form-control, inp
 	font-size: 12px;
 	height: 30px;
 }
+.fa-shopping-cart:before {
+	display: none;
+}
 /* Fix some bootstrap issues */
 span.hidden-xs, span.hidden-sm, span.hidden-md, span.hidden-lg {
 	display: inline;
@@ -613,8 +616,8 @@ h2.price {
 	margin: 0;
 }
 .product-thumb .price {
-	color: #444;
-}
+	color: #FF0000;
+}d
 .product-thumb .price-new {
 	font-weight: 600;
 }
@@ -642,7 +645,7 @@ h2.price {
 	}
 }
 .product-thumb .button-group button {
-	width: 60%;
+	width: 100%;
 	border: none;
 	display: inline-block;
 	float: left;
@@ -656,6 +659,8 @@ h2.price {
 .product-thumb .button-group button + button {
 	width: 20%;
 	border-left: 1px solid #ddd;
+	display: none;
+	
 }
 .product-thumb .button-group button:hover {
 	color: #444;
