@@ -75,6 +75,9 @@ div.required .control-label:before {
 	color: #F00;
 	font-weight: bold;
 }
+.product-layout {
+	padding: 0;
+}
 /* Gradent to all drop down menus */
 .dropdown-menu li > a:hover {
 	text-decoration: none;
@@ -543,9 +546,11 @@ footer h5 {
 }
 /* product list */
 .product-thumb {
-	border: 1px solid #ddd;
+	border-right: 1px solid #ddd;
 	margin-bottom: 20px;
 	overflow: auto;
+	height: 470px;
+	max-height: 490px;
 }
 .product-thumb .image {
 	text-align: center;
@@ -573,7 +578,7 @@ footer h5 {
 	font-weight: bold;
 }
 .product-thumb .caption {
-	padding: 0 20px;
+	padding: 0 10px;
 	min-height: 180px;
 }
 .product-list .product-thumb .caption {
@@ -635,6 +640,8 @@ h2.price {
 	border-top: 1px solid #ddd;
 	background-color: #eee;
 	overflow: auto;
+	width: 85%;
+   margin: auto;
 }
 .product-list .product-thumb .button-group {
 	border-left: 1px solid #ddd;
